@@ -69,8 +69,6 @@ bool solve(vector<vector<int>> &board)
     return true;
 }
 
-// T.C = O(9^m) (m = no. of empty cell)
-// S.C = O(1)
 void solveSudoku(vector<vector<int>> &sudoku)
 {
     solve(sudoku);
