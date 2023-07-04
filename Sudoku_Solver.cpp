@@ -35,8 +35,6 @@ bool isSafe(int row, int col, vector<vector<int>> board, int val)
     return true;
 }
 
-// T.C = O(9^m) (m = no. of empty cell)
-// S.C = O(1)
 bool solveSudoku(vector<vector<int>> &board)
 {
     for (int row = 0; row < 9; row++)
